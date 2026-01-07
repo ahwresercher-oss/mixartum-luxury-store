@@ -9,7 +9,7 @@ export default function AdminPage() {
   const [error, setError] = useState('');
 
   // Замените 'mixartum2024' на любой свой пароль в будущем через Vercel
-  const ADMIN_PASSWORD = "admin"; 
+  const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD; 
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
