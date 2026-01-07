@@ -1,8 +1,19 @@
 import './globals.css'
 import { Inter, Playfair_Display } from 'next/font/google'
+import { CartProvider } from './CartContext'
+import Navbar from './Navbar'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
+const inter = Inter({ 
+  subsets: ['latin'], 
+  variable: '--font-inter',
+  display: 'swap',
+})
+
+const playfair = Playfair_Display({ 
+  subsets: ['latin'], 
+  variable: '--font-playfair',
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'Mixartum Luxury Store',
@@ -15,21 +26,23 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable} font-sans`}>
-        <nav className="border-b py-6 px-10 flex justify-between items-center bg-white">
-          <div className="text-2xl font-serif tracking-widest uppercase">Mixartum</div>
-          <div className="space-x-8 uppercase text-xs tracking-widest">
-            <a href="/" className="hover:opacity-50">New Arrivals</a>
-            <a href="/" className="hover:opacity-50">Collections</a>
-            <a href="/" className="hover:opacity-50">About</a>
-          </div>
-          <div className="text-xs uppercase tracking-widest cursor-pointer">Cart (0)</div>
-        </nav>
-        {children}
-        <footer className="border-t py-10 text-center text-[10px] uppercase tracking-[0.2em] text-gray-400">
-          © 2024 Mixartum Luxury Boutique
-        </footer>
+    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+      <body className="font-sans bg-white antialiased">
+        {/* Оборачиваем всё приложение в провайдер корзины */}
+        <CartProvider>
+          <Navbar />
+          
+          {children}
+
+          <footer className="border-t py-16 mt-20 text-center bg-zinc-50">
+            <div className="text-[10px] uppercase tracking-[0.3em] text-zinc-400">
+              © 2024 Mixartum Luxury Boutique
+            </div>
+            <div className="mt-4 text-[9px] uppercase tracking-widest text-zinc-300">
+              Privacy Policy • Terms of Service • Contact Us
+            </div>
+          </footer>
+        </CartProvider>
       </body>
     </html>
   )
