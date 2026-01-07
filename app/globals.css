@@ -37,3 +37,6 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #000;
 }
+* {
+  transition: background-color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
