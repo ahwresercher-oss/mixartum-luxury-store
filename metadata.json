@@ -1,0 +1,8 @@
+
+{
+  "name": "LUXE - Premium Fashion Boutique",
+  "description": "A high-end e-commerce experience inspired by Net-a-Porter and Escada, featuring minimalist design and premium typography.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

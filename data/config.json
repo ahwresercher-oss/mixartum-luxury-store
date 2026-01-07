@@ -1,0 +1,107 @@
+
+{
+  "storeName": "LUXE",
+  "currency": "$",
+  "navigation": [
+    { "label": "New Arrivals", "id": "catalog" },
+    { "label": "Collection", "id": "catalog" },
+    { "label": "About", "id": "about" }
+  ],
+  "HeroSection": {
+    "title": "Elegance Redefined",
+    "subtitle": "The Spring/Summer 2025 Collection",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop",
+    "buttonText": "Discover Collection"
+  },
+  "about": {
+    "title": "A Legacy of Elegance",
+    "subtitle": "Crafting the Future of Luxury since 2010",
+    "story": "Founded in the heart of Milan, LUXE was born from a singular vision: to curate the world's most exquisite fashion for the modern individual. We believe that true luxury is not just about what you wear, but the story behind every stitch and the emotion evoked by timeless design.",
+    "mission": "Our mission is to bridge the gap between traditional craftsmanship and contemporary aesthetics. We partner exclusively with artisans who share our commitment to uncompromising quality and ethical production.",
+    "heroImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2070&auto=format&fit=crop",
+    "secondaryImage": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1974&auto=format&fit=crop"
+  },
+  "Products": [
+    {
+      "id": "1",
+      "name": "Silk Wrap Midi Dress",
+      "category": "Clothing",
+      "subCategory": "Dresses",
+      "price": 1250,
+      "isNew": true,
+      "description": "Crafted from pure Italian silk, this elegant wrap dress features a flattering silhouette and refined detailing that defines modern femininity.",
+      "images": [
+        "https://images.unsplash.com/photo-1539109132381-31a15b2974aa?q=80&w=1974&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=2073&auto=format&fit=crop"
+      ],
+      "details": ["100% Italian Silk", "Hand-finished seams", "Made in Milan"]
+    },
+    {
+      "id": "2",
+      "name": "Wool & Cashmere Overcoat",
+      "category": "Clothing",
+      "subCategory": "Outerwear",
+      "price": 2800,
+      "isNew": true,
+      "description": "A timeless silhouette meticulously tailored from a soft wool-cashmere blend.",
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=2036&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1539533113208-f6df81452411?q=80&w=1974&auto=format&fit=crop"
+      ],
+      "details": ["80% Virgin Wool, 20% Cashmere", "Lined in premium cupro"]
+    },
+    {
+      "id": "3",
+      "name": "Nappa Leather Signature Tote",
+      "category": "Bags",
+      "price": 1850,
+      "description": "Exquisitely soft nappa leather structured into a sculptural form.",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=1935&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=2069&auto=format&fit=crop"
+      ],
+      "details": ["Full-grain Nappa Leather", "Internal suede lining"]
+    },
+    {
+      "id": "4",
+      "name": "Tailored High-Rise Trousers",
+      "category": "Clothing",
+      "price": 650,
+      "onSale": true,
+      "oldPrice": 890,
+      "description": "Precision-cut trousers with a high-waist profile.",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=1974&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1976&auto=format&fit=crop"
+      ],
+      "details": ["Wool Crepe blend", "True to size"]
+    },
+    {
+      "id": "5",
+      "name": "Pointed Toe Stiletto",
+      "category": "Shoes",
+      "price": 950,
+      "isNew": true,
+      "description": "Classic pointed-toe pumps crafted from luxurious suede.",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=2000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=1964&auto=format&fit=crop"
+      ],
+      "details": ["100% Suede Leather", "90mm heel", "Made in Italy"]
+    },
+    {
+      "id": "6",
+      "name": "Silk Scarf Print",
+      "category": "Accessories",
+      "price": 320,
+      "onSale": true,
+      "oldPrice": 450,
+      "description": "A vibrant silk scarf with hand-rolled edges.",
+      "images": [
+        "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?q=80&w=1974&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?q=80&w=1974&auto=format&fit=crop"
+      ],
+      "details": ["100% Silk Twill", "90x90cm", "Dry clean only"]
+    }
+  ]
+}
