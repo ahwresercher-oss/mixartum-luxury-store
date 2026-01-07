@@ -2,7 +2,7 @@
 import config from './config.json';
 import { useCart } from './CartContext';
 import { Plus, ArrowRight } from 'lucide-react';
-
+import Link from 'next/link';
 export default function HomePage() {
   const { addToCart } = useCart();
 
