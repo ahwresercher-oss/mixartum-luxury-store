@@ -1,0 +1,24 @@
+{
+  "storeName": "MIXARTUM LUXURY",
+  "whatsappNumber": "79000000000",
+  "products": [
+    { 
+      "id": 1, 
+      "name": "Silk Evening Gown", 
+      "price": 2450, 
+      "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=800" 
+    },
+    { 
+      "id": 2, 
+      "name": "Cashmere Overcoat", 
+      "price": 3200, 
+      "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=800" 
+    },
+    { 
+      "id": 3, 
+      "name": "Leather Handbag", 
+      "price": 1850, 
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800" 
+    }
+  ]
+}
